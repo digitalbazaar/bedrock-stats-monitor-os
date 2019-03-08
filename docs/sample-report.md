@@ -1,5 +1,5 @@
 ## Sample Report with Default Metrics
-```
+```json
 {
   "createdDate": 1551477361417,
   "monitors": {
