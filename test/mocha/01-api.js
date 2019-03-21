@@ -4,10 +4,11 @@
 'use strict';
 
 const brStatsStorageRedis = require('bedrock-stats-storage-redis');
+const {util: {delay}} = require('bedrock');
 
 describe('stats-monitor-os', () => {
   it('stores two seconds of monitor reports using redis storage', async () => {
-    await sleep(2000);
+    await delay(2000);
     const result = await brStatsStorageRedis.find({monitorIds: ['os']});
     // spot check for averageLoad
     const [report] = result;
@@ -18,7 +19,3 @@ describe('stats-monitor-os', () => {
     should.exist(report.monitors.os.currentLoad.avgload);
   });
 });
-
-async function sleep(delay) {
-  return new Promise(resolve => setTimeout(resolve, delay));
-}
