@@ -10,9 +10,9 @@
     "bedrock-jobs": "^3.0.0",
     "bedrock-package-manager": "1.0.0",
     "bedrock-redis": "^3.4.0",
-    "bedrock-stats": "github:digitalbazaar/bedrock-stats#initial",
+    "bedrock-stats": "^1.0.0",
     "bedrock-stats-monitor-os": "file:..",
-    "bedrock-stats-storage-redis": "github:digitalbazaar/bedrock-stats-storage-redis#initial",
+    "bedrock-stats-storage-redis": "^1.0.0",
     "bedrock-test": "^2.1.0"
   }
 }
