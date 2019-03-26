@@ -1,6 +1,6 @@
 {
   "name": "bedrock-stats-monitor-os",
-  "version": "0.0.1-0",
+  "version": "1.0.0",
   "description": "Bedrock stats monitor for the operating system",
   "main": "lib",
   "scripts": {
