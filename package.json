@@ -2,6 +2,7 @@
   "name": "bedrock-stats-monitor-os",
   "version": "1.0.2-0",
   "description": "Bedrock stats monitor for the operating system",
+  "license": "SEE LICENSE IN LICENSE.md",  
   "main": "lib",
   "scripts": {
     "lint": "eslint lib"
@@ -24,14 +25,14 @@
     "systeminformation": "^4.0.14"
   },
   "peerDependencies": {
-    "bedrock": "^1.15.0",
+    "bedrock": "1.15.0 - 3.x",
     "bedrock-stats": "^1.0.0"
   },
   "engines": {
     "node": ">=8.9.0"
   },
   "devDependencies": {
-    "eslint": "^5.13.0",
+    "eslint": "^6.0.0",
     "eslint-config-digitalbazaar": "^2.0.0"
   }
 }
