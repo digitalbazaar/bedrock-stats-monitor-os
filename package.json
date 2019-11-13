@@ -1,8 +1,8 @@
 {
   "name": "bedrock-stats-monitor-os",
-  "version": "1.0.2-0",
+  "version": "1.0.2",
   "description": "Bedrock stats monitor for the operating system",
-  "license": "SEE LICENSE IN LICENSE.md",  
+  "license": "SEE LICENSE IN LICENSE.md",
   "main": "lib",
   "scripts": {
     "lint": "eslint lib"
